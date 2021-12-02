@@ -9,3 +9,5 @@ const Element = {
         app.use(MyButton)
     }
 }
+
+export default Element

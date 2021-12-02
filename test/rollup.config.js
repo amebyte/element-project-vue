@@ -1,9 +1,9 @@
 import babel from '@rollup/plugin-babel'
 import vuePlugin from 'rollup-plugin-vue'
 const es = {
-  input: 'src/entry.js',
+  input: './test/src/entry.js',
   output: {
-    file: 'dist/index.bundle.js',
+    file: './test/dist/index.bundle.js',
     name: 'Element',
     format: 'es',
     globals: {
@@ -19,9 +19,9 @@ const es = {
   ]
 }
 const iife = {
-  input: 'src/entry.js',
+  input: './test/src/entry.js',
   output: {
-    file: 'dist/index.js',
+    file: './test/dist/index.js',
     name: 'Element',
     format: 'iife',
     globals: {
@@ -38,10 +38,10 @@ const iife = {
 }
 import { terser } from 'rollup-plugin-terser'
 const minEs = {
-  input: 'src/entry.js',
+  input: './test/src/entry.js',
   external: ['vue'],
   output: {
-    file: 'dist/index.min.js',
+    file: './test/dist/index.min.js',
     name: 'Element',
     format: 'umd'
   },
@@ -55,10 +55,10 @@ const minEs = {
 }
 
 const cjs = {
-  input: 'src/entry.js',
+  input: './test/src/entry.js',
   external: ['vue'],
   output: {
-    file: 'dist/index.cjs.js',
+    file: './test/dist/index.cjs.js',
     name: 'Element',
     format: 'cjs'
   },
