@@ -1,0 +1,23 @@
+{
+  "name": "element-project-vue",
+  "version": "1.0.0",
+  "description": "工程化实践",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amebyte/element-project-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amebyte/element-project-vue/issues"
+  },
+  "homepage": "https://github.com/amebyte/element-project-vue#readme",
+  "dependencies": {
+    "vue": "^3.2.23"
+  }
+}
